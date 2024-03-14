@@ -41,8 +41,8 @@ export const checkoutSession = async (req, res) => {
     payment_method_types: ["card"],
     line_items: lineItems,
     mode: "payment",
-    success_url: "http://localhost:3000/cart/success",
-    cancel_url: "http://localhost:3000/cart/cancel",
+    success_url: "https://flipkartclonewebapp-frontend.vercel.app/cart/success",
+    cancel_url: "https://flipkartclonewebapp-frontend.vercel.app/cart/cancel",
   });
 
   //   res.json({ id: session.id });
