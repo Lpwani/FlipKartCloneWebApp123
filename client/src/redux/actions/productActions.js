@@ -3,7 +3,7 @@ import axios from 'axios';
 
 import * as actionTypes from '../constants/productConstants.js';
 
-const URL = 'http://localhost:8000';
+const URL = 'https://flipkartclonewebapp-api.vercel.app/';
 
 export const getProducts = () => async (dispatch) => {
     try {
