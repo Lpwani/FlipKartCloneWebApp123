@@ -18,7 +18,7 @@ dotenv.config();     // to initialiazation of dotenv...
 
 app.use(cors(
     {
-      origin: [""],
+      origin: ["https://flipkartclonewebapp-frontend.vercel.app"],
       methods: ["POST", "GET"],
       credentials: true
     }
