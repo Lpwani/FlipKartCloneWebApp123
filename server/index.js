@@ -22,7 +22,7 @@ app.use(cors(
           "https://lokesh-ecommerce.vercel.app",
           "https://flipkartclonewebapp-frontend.vercel.app"
       ],
-      methods: ["POST", "GET"],
+      methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
       credentials: true
     }
 ));
