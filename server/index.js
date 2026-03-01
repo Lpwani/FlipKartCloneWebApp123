@@ -43,5 +43,5 @@ Connection(URL);
 app.listen(PORT, () => {console.log(`The server is started on PORT ${PORT} Hello`)});
 
 
-DefaultData();
+// DefaultData();
 
